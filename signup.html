@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
     <script src="script.js"></script>
     <title>PeaceBook</title>
 </head>
@@ -13,10 +13,15 @@
     <header><span class="hd">PeaceBook</span><button class="hd2"><a href='#'>Sign in</button></header>
 <a href="index.html"><img class="logo" width="70px" height="66px" src="logo.png"></a>
 <a href="index.html"><img class="logo1" width="70px" height="66px" src="logo1.png"></a>
-    <div class="wlc"><span class="wlc1">Welcome!</span>
-        <p class="wlc2">Hello there!Sign up and be a part of PeaceBook!</p>
-    </div>
-    <button class="btn"><a href="signup.html">Sign up</button></a>
-    <footer><span class="ft">SocialWeb|2020</span></footer> 
+<form class="contain">
+    <img class='user' src='user.svg'>
+<div class="inp">  
+<span class="slog">Login:</span><input class="login" placeholder="Login"><br>
+<div class='inp-check'><span class='check'>Gender:</span><input type="radio" name="gender" class="male">Male</input>
+    <input type="radio" name="gender" class="female" />Female<br /></div>
+<span class="spass">Password:</span><input class="pass" placeholder='Password' type='password'>
+</div>  
+<button class="btn"><a href="#">Sign up</button></a>
+</form>
+<footer><span class="ft">SocialWeb|2020</span></footer> 
 </body>
-</html>

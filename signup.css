@@ -64,7 +64,7 @@ background: linear-gradient(to bottom right, #14F1FF, #58C1FF);
     text-align: center;
     height: 67px;
     position: relative;
-    top: 100px;
+    top: 65px;
     right: 9px;
     box-shadow: none 0 0 15px #000000;
 }
@@ -75,19 +75,50 @@ background: linear-gradient(to bottom right, #14F1FF, #58C1FF);
     top: 40px;
     font-size: 15px;
 }
-.wlc {
+.contain {
     background-image: url('wlc.png');
     filter: brightness(110%);
     border-radius: 15px;
     border:solid gray 3px;
     text-align: center;
     position: relative;
-    width: 700px;
-    height: 300px;
-    left:325px;
+    display: block;
+    width: 600px;
+    height: 400px;
+    left:340px;
+    margin: 10px;
     font-family: 'Cabin', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     word-spacing: 3px;
+    padding: 23px;
+}
+.inp{
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+}
+.pass{
+    position: relative;
+    top:45px;
+}
+.spass {
+    position: relative;
+    top: 50px;
+}
+.slog {
+    position: relative;
+    top: 10px;margin: 10px;
+}
+.log{
+    position: relative;
+    top: 10px;
+}
+input {
+    width: 150px;
+    height: 27px;
+    border: solid black 2px;
+    border-radius: 10%;
+    font-size: 15px;
 }
 .btn {
     font-family: 'Cabin', sans-serif;
@@ -97,10 +128,33 @@ background: linear-gradient(to bottom right, #14F1FF, #58C1FF);
     border-radius: 19%;
     position: relative;
     font-size: 34px;
-    left: 588px;
-    top: 10px;
-    background-color: #32effc;
+    left: 0px;
+    top:100px;
+    background-color:#32effc;
 }
 .btn:hover {
-    background-color: #41e6f2;
+    background-color: mediumturquoise;
+}
+.user {
+    width: 79px;
+    height: 79px;
+    position: relative;
+    border: solid gray 3px;
+    border-radius: 10%;
+}
+.inp-check {
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+.check {
+    top: 0px;
+    left: 40px;
+    position: relative;
+    font-size: 30px;
+}
+
+.male {
+    position: relative;
+    right: 10px;
 }
